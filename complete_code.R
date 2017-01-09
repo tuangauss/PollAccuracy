@@ -1,10 +1,10 @@
-data1 = read.csv("C://Users/hp/Desktop/personal study/data science/projects/election_data/electoral_votes.csv", header=T)
+data1 = read.csv("/election_data/electoral_votes.csv", header=T)
 
 State<- data1[,"State"]
 Trump <- numeric (length(State))
 for (i in 1:length(State)){
   state = State[i]
-  path = paste("C://Users/hp/Desktop/personal study/data science/projects/poll_by_state/", state, ".csv", sep = "")
+  path = paste("poll_by_state/", state, ".csv", sep = "")
   data = read.csv(path, header=T)
   
   ## we only need 2 columns, samplesize(N) and Trump_voters(X)
@@ -53,12 +53,13 @@ for (i in 1:length(State)){
     }
     results [it,] = th
   }
-  
+  ## we collect the mean of all iterations
   p = results[,1]
   Trump [i] = mean(p)
   message = paste ("Done ", State[i], "," , length (State) -i , " states to go", sep = "")
   print (message)
 }
 
+# write the probabilities into a csv file, ready to use by Python
 df = data.frame(State, Trump)
-write.csv(df,"C://Users/hp/Desktop/personal study/data science/projects/election_data/bayesian_data.csv")
+write.csv(df,"election_data/bayesian_data.csv")
