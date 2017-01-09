@@ -1,0 +1,10 @@
+,type,State,startdate,enddate,pollster,samplesize,rawpoll_clinton,rawpoll_trump,poll_id,poll_date,age_days,Votes,Trump_voters
+1772,polls-plus,District of Columbia,2016-10-04 00:00:00,2016-10-09 00:00:00,Google Consumer Surveys,61.0,57.9,15.1,46693,2016-10-06 12:00:00,1.5,3.0,9.0
+1985,polls-plus,District of Columbia,2016-09-27 00:00:00,2016-10-03 00:00:00,Google Consumer Surveys,64.0,62.2,9.8,46466,2016-09-30 00:00:00,8.0,3.0,6.0
+2273,polls-plus,District of Columbia,2016-09-21 00:00:00,2016-09-26 00:00:00,Google Consumer Surveys,52.0,66.5,15.3,46241,2016-09-23 12:00:00,14.5,3.0,7.0
+2319,polls-plus,District of Columbia,2016-09-14 00:00:00,2016-09-20 00:00:00,Google Consumer Surveys,73.0,43.2,28.5,45954,2016-09-17 00:00:00,21.0,3.0,20.0
+2488,polls-plus,District of Columbia,2016-09-07 00:00:00,2016-09-13 00:00:00,Google Consumer Surveys,73.0,38.8,32.4,45749,2016-09-10 00:00:00,28.0,3.0,23.0
+2687,polls-plus,District of Columbia,2016-08-31 00:00:00,2016-09-06 00:00:00,Google Consumer Surveys,66.0,47.9,21.8,45687,2016-09-03 00:00:00,35.0,3.0,14.0
+2814,polls-plus,District of Columbia,2016-08-24 00:00:00,2016-08-30 00:00:00,Google Consumer Surveys,67.0,44.3,25.6,45686,2016-08-27 00:00:00,42.0,3.0,17.0
+2986,polls-plus,District of Columbia,2016-08-17 00:00:00,2016-08-23 00:00:00,Google Consumer Surveys,58.0,54.0,22.2,45685,2016-08-20 00:00:00,49.0,3.0,12.0
+3168,polls-plus,District of Columbia,2016-08-10 00:00:00,2016-08-16 00:00:00,Google Consumer Surveys,54.0,44.2,24.8,45684,2016-08-13 00:00:00,56.0,3.0,13.0

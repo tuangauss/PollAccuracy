@@ -1,0 +1,13 @@
+,type,State,startdate,enddate,pollster,samplesize,rawpoll_clinton,rawpoll_trump,poll_id,poll_date,age_days,Votes,Trump_voters
+529,polls-plus,Rhode Island,2016-10-02 00:00:00,2016-10-04 00:00:00,Emerson College,600.0,52.0,32.0,46525,2016-10-03 00:00:00,5.0,4.0,192.0
+988,polls-plus,Rhode Island,2016-09-02 00:00:00,2016-09-05 00:00:00,Emerson College,800.0,44.0,41.0,45419,2016-09-03 12:00:00,34.5,4.0,328.0
+1810,polls-plus,Rhode Island,2016-10-04 00:00:00,2016-10-09 00:00:00,Google Consumer Surveys,51.0,52.2,25.0,46725,2016-10-06 12:00:00,1.5,4.0,12.0
+1971,polls-plus,Rhode Island,2016-09-27 00:00:00,2016-10-03 00:00:00,Google Consumer Surveys,57.0,44.8,28.5,46498,2016-09-30 00:00:00,8.0,4.0,16.0
+2161,polls-plus,Rhode Island,2016-08-09 00:00:00,2016-09-01 00:00:00,SurveyMonkey,625.0,41.0,33.0,45381,2016-08-20 12:00:00,48.5,4.0,206.0
+2182,polls-plus,Rhode Island,2016-09-21 00:00:00,2016-09-26 00:00:00,Google Consumer Surveys,57.0,42.4,23.0,46273,2016-09-23 12:00:00,14.5,4.0,13.0
+2418,polls-plus,Rhode Island,2016-09-14 00:00:00,2016-09-20 00:00:00,Google Consumer Surveys,50.0,46.4,30.9,45987,2016-09-17 00:00:00,21.0,4.0,15.0
+2535,polls-plus,Rhode Island,2016-09-07 00:00:00,2016-09-13 00:00:00,Google Consumer Surveys,53.0,37.6,30.2,45781,2016-09-10 00:00:00,28.0,4.0,16.0
+2622,polls-plus,Rhode Island,2016-08-31 00:00:00,2016-09-06 00:00:00,Google Consumer Surveys,65.0,41.2,23.5,45478,2016-09-03 00:00:00,35.0,4.0,15.0
+2691,polls-plus,Rhode Island,2016-08-24 00:00:00,2016-08-30 00:00:00,Google Consumer Surveys,85.0,38.9,19.9,45529,2016-08-27 00:00:00,42.0,4.0,16.0
+2883,polls-plus,Rhode Island,2016-08-17 00:00:00,2016-08-23 00:00:00,Google Consumer Surveys,73.0,44.2,18.5,45579,2016-08-20 00:00:00,49.0,4.0,13.0
+3068,polls-plus,Rhode Island,2016-08-10 00:00:00,2016-08-16 00:00:00,Google Consumer Surveys,72.0,34.2,27.0,45629,2016-08-13 00:00:00,56.0,4.0,19.0
