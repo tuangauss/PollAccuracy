@@ -1,6 +1,6 @@
 # prototype
 state = "California"
-path = paste("C://Users/hp/Desktop/personal study/data science/projects/poll_by_state/", state, ".csv", sep = "")
+path = paste("/poll_by_state/", state, ".csv", sep = "")
 data = read.csv(path, header=T)
 
 ## we only need 2 columns, samplesize(N) and Trump_voters(X)
