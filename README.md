@@ -32,16 +32,12 @@ There are two ways you can view/run/test the projects:
 1. Jupyter notebook (recommended):
 
 I prefer using Jupyter notebook as it retains the logical flow of the code and the way I broke the projects down into smaller problems. 
-Very simple use, just run the following files cell by cell. At some point, you will have to start using R to conduct Bayesian MCMC.
-```
-notebook.ipynb
-```
-I will soon add a detailed discussion on the results of the projects
+Very simple use, just run ```notebook.ipynb``` cell by cell. At some point, you will have to start using R ```Bayesian_MCMC.R```to conduct Bayesian MCMC.
+
+<i>I will soon add a detailed discussion on the results of the projects.</i>
 
 
 2. Classic Python files:
-- [ ] An uncompleted task
-
 <i>I will soon update the repository with  ```application.py``` and ```helpers.py```. </i>
 
 The project allows you to run a simulation of 10,000 election races and present data in a nice histogram and a choropleth map
