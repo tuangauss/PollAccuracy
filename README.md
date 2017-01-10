@@ -28,6 +28,7 @@ R is used for Bayesian simulation, mainly due to its computational prowess. I wi
 ### Running:
 
 There are two ways you can view/run/test the projects:
+
 1. Jupyter notebook (recommended):
 I prefer using Jupyter notebook as it retains the logical flow of the code and the way I broke the projects down into smaller problems. 
 Very simple use, just run the following files cell by cell.
@@ -36,10 +37,11 @@ I will soon add a detailed discussion on the results of the projects
 ```
 notebook.ipynb
 ```
+
 2. Classic Python files:
 - [ ] An uncompleted task
 
-I will soon update the repository with  ```application.py``` and ```helpers.py``` .
+<i>I will soon update the repository with  ```application.py``` and ```helpers.py```. </i>
 
 The project allows you to run a simulation of 10,000 election races and present data in a nice histogram and a choropleth map
 
