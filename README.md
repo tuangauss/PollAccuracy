@@ -39,7 +39,9 @@ Very simple use, just run ```notebook.ipynb``` cell by cell. At some point, you 
 
 ##### Classic Python files: 
 
-<i>I will soon update the repository with  ```application.py``` and ```helpers.py```. </i>
+Please find ```application.py``` , ```visual_helpers.py```, and ```function_helpers.py```</i>
+
+As of now, these separate python code only allows you to perform Regression. I am still working on the workflow between Python and R.
 
 The project allows you to run a simulation of 10,000 election races and present data in a nice histogram and a choropleth map
 
