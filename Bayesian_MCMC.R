@@ -1,9 +1,10 @@
-data1 = read.csv("/election_data/electoral_votes.csv", header=T)
+bigdata = read.csv("/election_data/electoral_votes.csv", header=T)
 
-State<- data1[,"State"]
+State<- bigdata[,"State"]
 Trump <- numeric (length(State))
 for (i in 1:length(State)){
   state = State[i]
+  ## create paths to csv files by concatenatings strings
   path = paste("poll_by_state/", state, ".csv", sep = "")
   data = read.csv(path, header=T)
   
@@ -38,9 +39,10 @@ for (i in 1:length(State)){
   nit = 100000
   results = matrix(0,nrow = nit, ncol = 1)
   
-  ## start at the mean of probability from all polls
+  ## start at the mean of probability from all polls "th"
+  ## th is registered as the first result
   th = mean(data[,"rawpoll_trump"])/100
-  results [1,1] = .5
+  results [1,1] = th
   for (it in 2:nit){
     # proose a candidae by add a sample from a Gaussian distribution
     cand = th + rnorm(1,0,.001)
@@ -56,6 +58,7 @@ for (i in 1:length(State)){
   ## we collect the mean of all iterations
   p = results[,1]
   Trump [i] = mean(p)
+  ## the process is long, printing the progress to keep yourself entertained
   message = paste ("Done ", State[i], "," , length (State) -i , " states to go", sep = "")
   print (message)
 }
