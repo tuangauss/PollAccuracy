@@ -48,7 +48,7 @@ for (i in 1:length(State)){
     cand = th + rnorm(1,0,.001)
     if (0<cand && cand <1){
       # since we take the log-likelihood, we need to take exponential back
-      ratio = 10^(post(cand)/post(th))
+      ratio = exp(post(cand)/post(th))
       if (runif(1,0,1)<ratio){
         th = cand
       }    
