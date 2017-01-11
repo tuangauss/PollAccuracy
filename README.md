@@ -46,9 +46,10 @@ As of now, these separate python code only allows you to perform Regression. I a
 The project allows you to run a simulation of 10,000 election races and present data in a nice histogram and a choropleth map
 
 * A nice histogram that presents results from 10,000 simulation:
+<i> Wtih a less than 3% chance of winning, who would think that he is now the President-elect?</i>
 ![picture alt](https://github.com/tuangauss/poll_accuracy/blob/master/demo%20histogram.JPG?raw=true)
 
-* A chloropth math that presents probability of Trump winning in each state:
+* A chloropeth math that presents probability of Trump winning in each state:
 ![picture alt](https://github.com/tuangauss/poll_accuracy/blob/master/demo%20choropleth%20map.JPG?raw=true)
 
 ## Authors
