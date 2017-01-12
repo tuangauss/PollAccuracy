@@ -48,10 +48,10 @@ The project allows you to run a simulation of 10,000 election races and present 
 * A nice histogram that presents results from 10,000 simulation:
 
 <i> Wtih a less than 3% chance of winning, who would think that he is now the President-elect?</i>
-![picture alt](https://github.com/tuangauss/poll_accuracy/blob/master/demo%20histogram.JPG?raw=true)
+![picture alt](https://dl.dropboxusercontent.com/s/3oavguz3mnnmddd/density.JPG)
 
 * A chloropeth math that presents probability of Trump winning in each state:
-![picture alt](https://github.com/tuangauss/poll_accuracy/blob/master/demo%20choropleth%20map.JPG?raw=true)
+![picture alt](https://dl.dropboxusercontent.com/s/q6baz7gjs2722r0/Capture.JPG)
 
 ## Authors
 
