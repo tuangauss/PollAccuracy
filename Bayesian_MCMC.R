@@ -11,7 +11,7 @@ for (i in 1:length(State)){
   ## we only need 2 columns, samplesize(N) and Trump_voters(X)
   smalldata <- data[,c("samplesize","Trump_voters")]
   smalldata
-  }
+  
   ### the question is, find the posterior distribution of p given value of X
   
   log_lik = function(th){
@@ -23,7 +23,7 @@ for (i in 1:length(State)){
       return (result)
     }
 
-  
+  }
   ### use beta distribution for prior
   log_prior = function (th){
     ### use parameter of beta as .5 and .5 to gives more weight at p =.5
