@@ -27,21 +27,13 @@ R is used for Bayesian simulation, mainly due to its computational prowess. I wi
 
 ### Running:
 
-There are two ways you can view/run/test the projects:
-
-##### Jupyter notebook (recommended):
+##### Jupyter notebook
 
 I prefer using Jupyter notebook as it retains the logical flow of the code and the way I broke the projects down into smaller problems. 
 Very simple use, just run ```notebook.ipynb``` cell by cell. At some point, you will have to start using R ```Bayesian_MCMC.R```to conduct Bayesian MCMC.
 
 <i>I will soon add a detailed discussion on the results of the projects.</i>
 
-
-##### Classic Python files: 
-
-Please find ```application.py``` , ```visual_helpers.py```, and ```function_helpers.py```</i>
-
-As of now, these separate python code only allows you to perform Regression. I am still working on the workflow between Python and R.
 
 The project allows you to run a simulation of 10,000 election races and present data in a nice histogram and a choropleth map
 
