@@ -1,4 +1,4 @@
-# Poll_accuracy
+# PollAccuracy
 
 Project implemented in Python to simulate and make "prediction" about the 2016 presidential election.(well, 3 months after the election). The idea is very simple: assuming that the outcome of the presidential race <b> at each state </b> follows a Bernalloui distribution where Donald Trump (now president-elect) has the probability of winning <b><i> p </i></b>, we can iterate the race in each state over a large amount of time and compute the mean electoral votes.
 
